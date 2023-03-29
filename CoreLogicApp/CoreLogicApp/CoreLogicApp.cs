@@ -15,20 +15,31 @@ namespace CoreLogicApp
             Console.WriteLine("Введите количество рельсовых цепей: ");
             int count = Convert.ToInt32(Console.ReadLine());
 
-            RK[] RKs = new RK[count];
+            RelayEnd[] RKs = new RelayEnd[count];
             //RL[] RLs = new RL[count];
             //PK[] PKs = new PK[count];
 
             while (i < count)
             {
-                RKs[i] = new RK();
+                RKs[i] = new RelayEnd();
                 Console.WriteLine($"Введите для {i+1}-го РК параметр: ");
-                RKs[i].ParameterRK = int.Parse(Console.ReadLine());
+                RKs[i].ParameterRelayEnd = int.Parse(Console.ReadLine());
 
                 i++;
             }
 
-            Console.WriteLine($"Значение параметра РК 3 равно {RKs[2].ParameterRK}");
+            Console.WriteLine($"Значение параметра РК 3 равно {RKs[2].ParameterRelayEnd}");
+        }
+
+        private void structcore() // структура программы
+        {
+          
+        }
+        private struct RailCircuit
+        {
+            private int quantityEnds;
+            private Ends[] ends;
+            private RailLine[] railLines;
         }
     }
 }

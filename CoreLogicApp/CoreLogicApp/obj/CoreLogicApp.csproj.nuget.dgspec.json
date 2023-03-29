@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Work\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj": {}
+    "C:\\Users\\krava\\source\\repos\\SpoiledBogdan\\BSUT-Core-app\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Work\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj": {
+    "C:\\Users\\krava\\source\\repos\\SpoiledBogdan\\BSUT-Core-app\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Work\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj",
+        "projectUniqueName": "C:\\Users\\krava\\source\\repos\\SpoiledBogdan\\BSUT-Core-app\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj",
         "projectName": "CoreLogicApp",
-        "projectPath": "C:\\Users\\1\\Work\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Work\\CoreLogicApp\\CoreLogicApp\\obj\\",
+        "projectPath": "C:\\Users\\krava\\source\\repos\\SpoiledBogdan\\BSUT-Core-app\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.csproj",
+        "packagesPath": "C:\\Users\\krava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krava\\source\\repos\\SpoiledBogdan\\BSUT-Core-app\\CoreLogicApp\\CoreLogicApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
