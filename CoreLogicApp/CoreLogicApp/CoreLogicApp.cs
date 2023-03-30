@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CoreLogicApp.TrackChain;
 
 namespace CoreLogicApp
 {
@@ -34,12 +35,6 @@ namespace CoreLogicApp
         private void structcore() // структура программы
         {
           
-        }
-        private struct RailCircuit
-        {
-            private int quantityEnds;
-            private Ends[] ends;
-            private RailLine[] railLines;
         }
     }
 }

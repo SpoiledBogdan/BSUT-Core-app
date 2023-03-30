@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreLogicApp
+namespace CoreLogicApp.TrackChain
 {
-    internal class RailLine : Entity
+    internal class RelayEnd : Entity
     {
-        private int parameterRailLine;
-
     }
 }

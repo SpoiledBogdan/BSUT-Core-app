@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreLogicApp
+namespace CoreLogicApp.TrackChain
 {
-    internal class FeedingEnd : Entity
+    internal class RailCircuit
     {
-        private int parameterFeedingEnd;
-
     }
 }
