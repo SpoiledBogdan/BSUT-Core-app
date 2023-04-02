@@ -28,5 +28,20 @@ namespace CoreLogicApp.Units
             this.modulation_frequency = modulation_frequency;
             this.filter_type = filter_type;
         }
+
+        public void SetValues()
+        {
+            Console.WriteLine("Введите тип включения: ");
+            inclusion_type = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите несущую частоту: ");
+            carrier_frequency = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите частоту модуляции: ");
+            modulation_frequency = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите тип фильтра: ");
+            filter_type = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }

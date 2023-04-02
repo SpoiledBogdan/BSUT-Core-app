@@ -16,5 +16,20 @@ namespace CoreLogicApp.Units
             connection_type = 0;
             resistance = 0.0;
         }
+
+        public Resistor(int connection_type, double resistance)
+        {
+            this.connection_type = connection_type;
+            this.resistance = resistance;
+        }
+
+        public void SetValues()
+        {
+            Console.WriteLine("Введите тип подключения: ");
+            connection_type = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите сопротивление: ");
+            resistance = Convert.ToDouble(Console.ReadLine());
+        }
     }
 }
