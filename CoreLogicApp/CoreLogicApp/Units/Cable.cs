@@ -25,5 +25,16 @@ namespace CoreLogicApp.Units
             this.cable_type = cable_type;
             this.cable_brand = cable_brand;
         }
+        public void SetValues() 
+        {
+            Console.WriteLine("Введите длину кабеля: ");
+            length = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите тип кабеля: ");
+            cable_type = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите марку кабеля: ");
+            cable_brand = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }

@@ -23,5 +23,14 @@ namespace CoreLogicApp.Units
             this.connection_type = connection_type;
             this.capacity = capacity;
         }
+
+        public void SetValues()
+        {
+            Console.WriteLine("Введите тип подключения: ");
+            connection_type = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите емкость: ");
+            capacity = Convert.ToDouble(Console.ReadLine());
+        }
     }
 }
