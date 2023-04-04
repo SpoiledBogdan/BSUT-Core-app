@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CoreLogicApp",
+    "\\CoreLogicApp\\CoreLogicApp"
   ],
+  "SelectedNode": "\\CoreLogicApp\\CoreLogicApp.sln",
   "PreviewInSolutionExplorer": false
 }

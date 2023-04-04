@@ -24,12 +24,12 @@ namespace CoreLogicApp
             {
                 RKs[i] = new RelayEnd();
                 Console.WriteLine($"Введите для {i+1}-го РК параметр: ");
-                RKs[i].ParameterRelayEnd = int.Parse(Console.ReadLine());
+                //RKs[i].ParameterRelayEnd = int.Parse(Console.ReadLine());
 
                 i++;
             }
 
-            Console.WriteLine($"Значение параметра РК 3 равно {RKs[2].ParameterRelayEnd}");
+            //Console.WriteLine($"Значение параметра РК 3 равно {RKs[2].ParameterRelayEnd}");
         }
 
         private void structcore() // структура программы
