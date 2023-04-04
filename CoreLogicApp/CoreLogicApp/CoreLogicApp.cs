@@ -31,10 +31,5 @@ namespace CoreLogicApp
 
             //Console.WriteLine($"Значение параметра РК 3 равно {RKs[2].ParameterRelayEnd}");
         }
-
-        private void structcore() // структура программы
-        {
-          
-        }
     }
 }
