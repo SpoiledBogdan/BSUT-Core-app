@@ -7,7 +7,8 @@ using CoreLogicApp.Units;
 
 namespace CoreLogicApp.TrackChain
 {
-    internal class FeedingEnd : Entity
+    [Serializable]
+    public class FeedingEnd : Entity
     {
         public Cable Cable { get; set; }
         public Capacitor Capacitor { get; set; }

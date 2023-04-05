@@ -8,7 +8,8 @@ using CoreLogicApp.Units;
 
 namespace CoreLogicApp.TrackChain
 {
-    internal class RailLine : Entity
+    [Serializable]
+    public class RailLine : Entity
     {
 
     }

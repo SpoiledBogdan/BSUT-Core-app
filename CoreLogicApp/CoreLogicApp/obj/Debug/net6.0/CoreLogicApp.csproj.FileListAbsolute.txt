@@ -43,3 +43,8 @@ C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0
 C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\CoreLogicApp.pdb
 C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\CoreLogicApp.genruntimeconfig.cache
 C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\ref\CoreLogicApp.dll
+C:\Users\krava\source\repos\SpoiledBogdan\BSUT-Core-app\CoreLogicApp\CoreLogicApp\bin\Debug\net6.0\Eco.Handles.dll
+C:\Users\krava\source\repos\SpoiledBogdan\BSUT-Core-app\CoreLogicApp\CoreLogicApp\bin\Debug\net6.0\Eco.Interfaces.dll
+C:\Users\krava\source\repos\SpoiledBogdan\BSUT-Core-app\CoreLogicApp\CoreLogicApp\bin\Debug\net6.0\Eco.LinqExtender.dll
+C:\Users\krava\source\repos\SpoiledBogdan\BSUT-Core-app\CoreLogicApp\CoreLogicApp\bin\Debug\net6.0\MDriven.Net.Http.dll
+C:\Users\krava\source\repos\SpoiledBogdan\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\CoreLogicApp.csproj.CopyComplete

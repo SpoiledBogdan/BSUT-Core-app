@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp.Units
 {
-    internal class Capacitor : Quadripole
+    [Serializable]
+    public class Capacitor : Quadripole
     {
         public int connection_type;
         public double capacity;

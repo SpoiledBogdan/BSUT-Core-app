@@ -6,17 +6,35 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using CoreLogicApp.Units;
 using CoreLogicApp.TrackChain;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 int i = 0;
 
 Console.WriteLine("Приложение для расчета тунелирования рельсовых цепей.");
+
+static void SaveBinaryFormat(object objGraph, string fileName)
+{
+    BinaryFormatter binFormat = new BinaryFormatter();
+    try {
+        using (Stream fStream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None))
+        {
+            binFormat.Serialize(fStream, objGraph);
+        }
+        Console.WriteLine("--> Сохранение объекта в Binary format");
+    }catch(Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+ }
 
 while (i != 1)
 {
     Console.WriteLine("Выберите нужный пункт" +
         "\n1. Выйти из программы" +
         "\n2. Создать рельсовую цепь" +
-        "\n3. Сохранить рельсовую цепь\n");
+        "\n3. Сохранить рельсовую цепь" +
+        "\n4. Загрузить рельсовую цепь\n");
 
     i = Convert.ToInt32(Console.ReadLine());
 
@@ -25,12 +43,9 @@ while (i != 1)
         case 1:
             Environment.Exit(0);
             break;
-
         case 2:
             RailCircuit railCircuit = new RailCircuit();
-
             int block = 0;
-
             while (block != 3)
             {
                 Console.WriteLine("Выберите, для какого блока вводить значения:" +
@@ -83,23 +98,23 @@ while (i != 1)
                     railCircuit.RelayEnd.Transformer.SetValues();
                 }
             }
-
-            string fileName = "railCircuit.json";
-            string jsonString = JsonSerializer.Serialize(railCircuit);
-            File.WriteAllText(fileName, jsonString );
-
-            Console.WriteLine(File.ReadAllText(fileName));
-
-            //using (FileStream fileStream = new FileStream("railCircuit.json", FileMode.OpenOrCreate))
-            //{
-            //    await JsonSerializer.SerializeAsync<RailCircuit>(fileStream, railCircuit);
-            //    Console.WriteLine("Запись в файл успешно завершена");
-            //}
-
+            SaveBinaryFormat(railCircuit, "railCircuit.dat");
             break;
+        case (4):
+            try
+            {
+                using (FileStream fs = new FileStream("railCircuit.dat", FileMode.OpenOrCreate))
+                {
+                    BinaryFormatter binFormat = new BinaryFormatter();
+                    RailCircuit railCircuit1 = (RailCircuit)binFormat.Deserialize(fs);
+                    Console.WriteLine("файл загружен");
+                }
+            }catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
 
+            }
+            break;
     }
-
-
     i++;
 }

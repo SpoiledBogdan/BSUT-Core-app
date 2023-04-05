@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp.Units
 {
-    internal class Filter : Quadripole
+    [Serializable]
+    public class Filter : Quadripole
     {
         public int inclusion_type;
         public double carrier_frequency;

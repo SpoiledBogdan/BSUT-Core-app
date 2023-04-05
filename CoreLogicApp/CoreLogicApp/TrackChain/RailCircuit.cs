@@ -7,7 +7,8 @@ using CoreLogicApp.Units;
 
 namespace CoreLogicApp.TrackChain
 {
-    internal class RailCircuit
+    [Serializable]
+    public class RailCircuit
     {
         public FeedingEnd FeedingEnd { get; set; }
         public RailLine RailLine { get; set; }

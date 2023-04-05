@@ -7,8 +7,31 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "CoreLogicApp/1.0.0": {
+        "dependencies": {
+          "EcoCore": "7.0.0.14661"
+        },
         "runtime": {
           "CoreLogicApp.dll": {}
+        }
+      },
+      "EcoCore/7.0.0.14661": {
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14661"
+          },
+          "lib/net40/Eco.Interfaces.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14661"
+          },
+          "lib/net40/Eco.LinqExtender.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14661"
+          },
+          "lib/net40/MDriven.Net.Http.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14661"
+          }
         }
       }
     }
@@ -18,6 +41,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EcoCore/7.0.0.14661": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zi25l4KDXiwnZsqY4dchPlyEVRWHfQFy1rie2pK1az/4GectMghfcVRSLjq2wcNewnol1jOH3zKBOTCgyHdfGg==",
+      "path": "ecocore/7.0.0.14661",
+      "hashPath": "ecocore.7.0.0.14661.nupkg.sha512"
     }
   }
 }

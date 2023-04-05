@@ -8,7 +8,8 @@ using CoreLogicApp.Units;
 
 namespace CoreLogicApp.TrackChain
 {
-    internal class RelayEnd : Entity
+    [Serializable]
+    public class RelayEnd : Entity
     {
         public Cable Cable { get; set; }
 

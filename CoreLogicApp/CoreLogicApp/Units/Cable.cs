@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp.Units
 {
-    internal class Cable : Quadripole
+    [Serializable]
+    public class Cable : Quadripole
     {
         public double length;
         public int cable_type;

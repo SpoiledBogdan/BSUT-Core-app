@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp
 {
-    internal class Quadripole
+    [Serializable]
+    public class Quadripole
     {
         public string A;
         public string B;

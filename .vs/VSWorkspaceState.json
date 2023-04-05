@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CoreLogicApp",
+    "\\CoreLogicApp\\CoreLogicApp",
+    "\\CoreLogicApp\\CoreLogicApp\\TrackChain"
   ],
+  "SelectedNode": "\\CoreLogicApp\\CoreLogicApp\\CoreLogicApp.cs",
   "PreviewInSolutionExplorer": false
 }

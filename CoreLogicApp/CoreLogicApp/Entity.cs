@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp
 {
-    internal class Entity
+    [Serializable]
+    public class Entity
     {
         private int id;
     }

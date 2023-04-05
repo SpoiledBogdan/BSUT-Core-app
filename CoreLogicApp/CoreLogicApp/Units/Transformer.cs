@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp.Units
 {
-    internal class Transformer : Quadripole
+    [Serializable]
+    public class Transformer : Quadripole
     {
         public int transformer_type;
         public double transformation_ratio;

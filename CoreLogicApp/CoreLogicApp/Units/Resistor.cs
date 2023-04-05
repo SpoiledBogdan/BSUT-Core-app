@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLogicApp.Units
 {
-    internal class Resistor : Quadripole
+    [Serializable]
+    public class Resistor : Quadripole
     {
         public int connection_type;
         public double resistance;
