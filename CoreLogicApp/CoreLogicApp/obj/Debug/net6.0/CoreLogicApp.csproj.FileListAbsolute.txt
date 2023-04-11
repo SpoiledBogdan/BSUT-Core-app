@@ -43,3 +43,5 @@ C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0
 C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\CoreLogicApp.pdb
 C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\CoreLogicApp.genruntimeconfig.cache
 C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\ref\CoreLogicApp.dll
+C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\1\source\repos\BSUT-Core-app\CoreLogicApp\CoreLogicApp\obj\Debug\net6.0\CoreLogicApp.csproj.CopyComplete

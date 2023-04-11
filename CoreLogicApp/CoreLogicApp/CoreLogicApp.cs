@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using CoreLogicApp.Units;
 using CoreLogicApp.TrackChain;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json;
 
 int i = 0;
 
@@ -84,17 +86,7 @@ while (i != 1)
                 }
             }
 
-            string fileName = "railCircuit.json";
-            string jsonString = JsonSerializer.Serialize(railCircuit);
-            File.WriteAllText(fileName, jsonString );
-
-            Console.WriteLine(File.ReadAllText(fileName));
-
-            //using (FileStream fileStream = new FileStream("railCircuit.json", FileMode.OpenOrCreate))
-            //{
-            //    await JsonSerializer.SerializeAsync<RailCircuit>(fileStream, railCircuit);
-            //    Console.WriteLine("Запись в файл успешно завершена");
-            //}
+            string json = JsonConvert.SerializeObject(railCircuit);
 
             break;
 
