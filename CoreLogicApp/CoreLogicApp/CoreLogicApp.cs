@@ -86,8 +86,6 @@ while (i != 1)
                 }
             }
 
-            string json = JsonConvert.SerializeObject(railCircuit);
-
             break;
 
     }
